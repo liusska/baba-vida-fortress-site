@@ -1,0 +1,75 @@
+body ul, li, h1, h2, a{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #F4F4F4;
+    max-height: 15px;
+    padding: 20px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    text-align: center;
+    width: 35%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+nav li a:hover {
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .location{
+    max-width: 500px;
+    max-height: 10px;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    color: cadetblue;
+    padding: 10px 25px 25px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+
+.banner h2{
+    font-size: 25px;
+}
+
+.banner a{
+    color: #4B4B4B;
+    text-decoration: none;
+}
+
+.location:hover{
+    background-color: cadetblue;
+}
+
+footer{
+    background: #F4F4F4;
+    padding: 5px;
+    text-align: center;
+    color: dimgrey;
+}
