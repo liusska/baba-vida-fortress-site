@@ -1,13 +1,13 @@
 body ul, li, h1, h2, a{
-    font-family: arial;
+    font-family: "Book Antiqua";
     margin: 0;
     padding: 0;
 }
 
 nav{
-    background-color: #F4F4F4;
+    background-color: white;
     max-height: 15px;
-    padding: 20px;
+    padding: 20px 20px 40px;
 }
 
 nav ul{
@@ -18,7 +18,7 @@ nav ul{
 
 nav li{
     text-align: center;
-    width: 35%;
+    width: 25%;
     display: inline-block;
     font-size: 24px;
 }
@@ -31,7 +31,7 @@ nav li a:hover {
     border: 0;
     padding: 5px 20px;
     border-radius: 5px;
-    background-color: gainsboro;
+    background-color: whitesmoke;
 }
 
 .banner{
@@ -69,7 +69,36 @@ nav li a:hover {
 
 footer{
     background: #F4F4F4;
-    padding: 5px;
     text-align: center;
     color: dimgrey;
+}
+
+.gallery-page{
+    padding-top: 10px;
+    background-color: #F4F4F4;
+}
+
+.gallery{
+    text-align: center;
+    padding: 20px;
+}
+
+div.gallery:hover {
+  border: 0 solid #777;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.images:hover{
+  margin: 5px;
+  border: 1px solid black;
+  width: 60%;
 }
