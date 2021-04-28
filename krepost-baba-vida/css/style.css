@@ -1,5 +1,11 @@
 body ul, li, h1, h2, a{
     font-family: "Book Antiqua";
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -27,6 +33,7 @@ nav li a{
     text-decoration: none;
     color: #4B4B4B;
 }
+
 nav li a:hover {
     border: 0;
     font-weight: bold;
@@ -52,7 +59,7 @@ nav li a:hover {
     padding: 10px 25px 25px;
     position: absolute;
     right: 10px;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .banner h2{
@@ -68,7 +75,8 @@ nav li a:hover {
     background-color: cadetblue;
 }
 
-footer{
+
+footer {
     background: #F4F4F4;
     text-align: center;
     color: dimgrey;
@@ -111,6 +119,7 @@ div.desc {
     display: flex;
 }
 
+
 .article-view{
     background-color: #ece4e4;
     margin-right: 20px;
@@ -143,10 +152,11 @@ div.desc {
     text-align: center;
 }
 
-.page-menu a{
+div li a{
     text-decoration: none;
     color: #4B4B4B;
 }
+
 
 .article-geography-view{
     background-color: #ece4e4;
@@ -166,8 +176,10 @@ div.desc {
 
 .article-geography-view a{
     text-decoration: none;
+    padding-left: 30px;
     color: #4B4B4B;
 }
+
 
 .article-geography-view h2{
     font-size: 20px;
@@ -210,5 +222,12 @@ div.description {
 .monument-gallery-article{
     margin-left: 190px;
     margin-top: 30px;
+    padding-bottom: 250px;
 }
 
+.vidin-gallery-article{
+    margin-left: 190px;
+    margin-top: 30px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+}
