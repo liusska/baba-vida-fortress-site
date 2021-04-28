@@ -52,14 +52,14 @@ nav li a:hover {
 
 .banner .location{
     max-width: 500px;
-    max-height: 10px;
+    max-height: 20px;
     border-radius: 10px;
     background-color: #F4F4F4;
     color: cadetblue;
-    padding: 10px 25px 25px;
+    padding: 8px 25px 25px;
     position: absolute;
     right: 10px;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 .banner h2{
